@@ -1,0 +1,264 @@
+SAT MAY 22 2021
+
+// ♥  rails s
+The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+Could not find proper version of railties (6.0.2.2) in any of the sources
+Run `bundle install` to install missing gems.
+
+// ♥  bundle install
+The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+Fetching gem metadata from https://rubygems.org/............
+Your bundle is locked to mimemagic (0.3.4), but that version could not be found in any of the sources listed in your
+Gemfile. If you haven't changed sources, that means the author of mimemagic (0.3.4) has removed it. You'll need to
+update your bundle to a version other than mimemagic (0.3.4) that hasn't been removed in order to install.
+[09:56:12]  api-wordlist (master)
+// ♥  pwd
+/mnt/c/Users/SOLON/dev/flatiron/labs/p4_ror_js/api-wordlist
+[09:58:57]  api-wordlist (master)
+// ♥  bundle update mimemagic
+The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+Fetching gem metadata from https://rubygems.org/............
+Fetching gem metadata from https://rubygems.org/.
+Resolving dependencies...
+Using rake 13.0.1
+Using concurrent-ruby 1.1.6
+Using i18n 1.8.2
+Fetching minitest 5.14.0
+Installing minitest 5.14.0
+Using thread_safe 0.3.6
+Using tzinfo 1.2.7
+Using zeitwerk 2.3.0
+Fetching activesupport 6.0.2.2
+Installing activesupport 6.0.2.2
+Using builder 3.2.4
+Using erubi 1.9.0
+Using mini_portile2 2.4.0
+Using nokogiri 1.10.9
+Using rails-dom-testing 2.0.3
+Using crass 1.0.6
+Using loofah 2.5.0
+Using rails-html-sanitizer 1.3.0
+Fetching actionview 6.0.2.2
+Installing actionview 6.0.2.2
+Using rack 2.2.2
+Using rack-test 1.1.0
+Fetching actionpack 6.0.2.2
+Installing actionpack 6.0.2.2
+Using nio4r 2.5.2
+Using websocket-extensions 0.1.4
+Fetching websocket-driver 0.7.1
+Installing websocket-driver 0.7.1 with native extensions
+Fetching actioncable 6.0.2.2
+Installing actioncable 6.0.2.2
+Using globalid 0.4.2
+Fetching activejob 6.0.2.2
+Installing activejob 6.0.2.2
+Fetching activemodel 6.0.2.2
+Installing activemodel 6.0.2.2
+Fetching activerecord 6.0.2.2
+Installing activerecord 6.0.2.2
+Fetching mimemagic 0.3.10 (was 0.3.4)
+Installing mimemagic 0.3.10 (was 0.3.4) with native extensions
+Using marcel 0.3.3
+Fetching activestorage 6.0.2.2
+Installing activestorage 6.0.2.2
+Using mini_mime 1.0.2
+Using mail 2.7.1
+Fetching actionmailbox 6.0.2.2
+Installing actionmailbox 6.0.2.2
+Fetching actionmailer 6.0.2.2
+Installing actionmailer 6.0.2.2
+Fetching actiontext 6.0.2.2
+Installing actiontext 6.0.2.2
+Using msgpack 1.3.3
+Using bootsnap 1.4.6
+Using bundler 2.1.4
+Fetching byebug 11.1.1
+Installing byebug 11.1.1 with native extensions
+Using ffi 1.12.2
+Fetching rb-fsevent 0.10.3
+Installing rb-fsevent 0.10.3
+Using rb-inotify 0.10.1
+Using ruby_dep 1.5.0
+Using listen 3.1.5
+Using method_source 1.0.0
+Fetching puma 4.3.3
+Installing puma 4.3.3 with native extensions
+Using rack-cors 1.1.1
+Using thor 1.0.1
+Fetching railties 6.0.2.2
+Installing railties 6.0.2.2
+Using sprockets 4.0.0
+Using sprockets-rails 3.2.1
+Fetching rails 6.0.2.2
+Installing rails 6.0.2.2
+Using spring 2.1.0
+Using spring-watcher-listen 2.0.1
+Using sqlite3 1.4.2
+Bundle updated!
+=> Booting Puma
+=> Rails 6.0.2.2 application starting in development 
+=> Run `rails server --help` for more startup options
+Puma starting in single mode...
+* Version 4.3.3 (ruby 2.6.3-p62), codename: Mysterious Traveller
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://127.0.0.1:3000
+* Listening on tcp://[::1]:3000
+Use Ctrl-C to stop
+Started GET "/" for 127.0.0.1 at 2021-05-22 10:19:23 -0400
+  [1m[35m (6.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/arthur/.rvm/gems/ruby-2.6.3/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/arthur/.rvm/gems/ruby-2.6.3/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 20.4ms | Allocations: 477)
+Completed 200 OK in 56ms (Views: 39.0ms | ActiveRecord: 0.0ms | Allocations: 2613)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2021-05-22 10:19:24 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.2) lib/rails/engine.rb:526:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/words" for 127.0.0.1 at 2021-05-22 10:19:28 -0400
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/services/word_serializer.rb:14:in `to_serialized_json'
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/services/word_serializer.rb:14:in `to_serialized_json'
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/services/word_serializer.rb:14:in `to_serialized_json'
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/services/word_serializer.rb:14:in `to_serialized_json'
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/services/word_serializer.rb:14:in `to_serialized_json'
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/services/word_serializer.rb:14:in `to_serialized_json'
+Completed 200 OK in 148ms (Views: 0.2ms | ActiveRecord: 5.5ms | Allocations: 21355)
+
+
+Started GET "/words" for 127.0.0.1 at 2021-05-22 10:19:32 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.5ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/services/word_serializer.rb:14:in `to_serialized_json'
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/services/word_serializer.rb:14:in `to_serialized_json'
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/services/word_serializer.rb:14:in `to_serialized_json'
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/services/word_serializer.rb:14:in `to_serialized_json'
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/services/word_serializer.rb:14:in `to_serialized_json'
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/services/word_serializer.rb:14:in `to_serialized_json'
+Completed 200 OK in 43ms (Views: 0.1ms | ActiveRecord: 5.6ms | Allocations: 13757)
+
+
+- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2021-05-22 10:19:36 -0400 ===
+- Goodbye!
+Exiting
+
+[] 
+// ♥  rails g scaffold Feedback description:string email:string --no-test-framework
+The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+Running via Spring preloader in process 4360
+/home/arthur/.rvm/gems/ruby-2.6.1/gems/spring-2.1.1/lib/spring/application.rb:204: warning: Insecure world writable dir /home/arthur/.rvm/gems/ruby-2.6.1/bin in PATH, mode 040777
+      invoke  active_record
+      create    db/migrate/20210522190643_create_feedbacks.rb
+      create    app/models/feedback.rb
+      invoke  resource_route
+       route    resources :feedbacks
+      invoke  scaffold_controller
+      create    app/controllers/feedbacks_controller.rb
+
+DO NOT USE:
+// ♥  rails g resource Feedback description:string email:string --no-test-framework --no-javascripts --no-helper --no-assets --no-stylesheets
+
+Running via Spring preloader in process 3730
+/home/arthur/.rvm/gems/ruby-2.6.3/gems/spring-2.1.0/lib/spring/application.rb:199: warning: Insecure world writable dir /home/arthur/.rvm/gems/ruby-2.6.3 in PATH, mode 040777
+      invoke  active_record
+      create    db/migrate/20210522162726_create_feedbacks.rb
+      create    app/models/feedback.rb
+      invoke  controller
+      create    app/controllers/feedbacks_controller.rb
+      invoke  resource_route
+       route    resources :feedbacks
+[12:27:26]  api-wordlist (master)
+
+[]
+
+class CreateFeedbacks < ActiveRecord::Migration[6.0]
+  def change
+    create_table :feedbacks do |t|
+      t.string :description, null: false
+      t.string :email
+
+      t.timestamps
+    end
+  end
+end
+
+[] 
+Feedback.create(description: 'What a trillion $ website',
+                email: 'everyone@everywhere.com'
+)
+
+[]
+// ♥  rails db:migrate
+The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+== 20210522162726 CreateFeedbacks: migrating ==================================
+-- create_table(:feedbacks)
+   -> 0.0242s
+== 20210522162726 CreateFeedbacks: migrated (0.0252s) =========================
+
+// ♥  rails db:seed
+The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+
+
+[] to fix warning
+https://github.com/tzinfo/tzinfo-data/issues/12
+When you create a new Ruby on Rails application, a Gemfile is created including the following line that triggers the message:
+
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+If you want to get rid of the warning message you can do one of the following:
+
+    Remove the platforms option from the gem 'tzinfo-data' line in the Gemfile (and run bundle update). This will cause tzinfo to use tzinfo-data as its data source on all platforms instead of using the system time zone data.
+
+
+// ♥  rails c
+
+Loading development environment (Rails 6.0.2.2)
+2.6.3 :001 > f = Feedback.find(1)
+   (0.8ms)  SELECT sqlite_version(*)
+  Feedback Load (0.4ms)  SELECT "feedbacks".* FROM "feedbacks" WHERE "feedbacks"."id" = ? LIMIT ?  [["id", 1], ["LIMIT", 1]]
+ => #<Feedback id: 1, description: "What a trillion $ website", email: "everyone@everywhere.com", created_at: "2021-05-22 18:51:47", updated_at: "2021-05-22 18:51:47">
+2.6.3 :002 >
+
+
+

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ea3679b-fe79-4aab-b340-ef8661e1f78c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../api-wordlist/app/services/category_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../api-wordlist/app/services/category_serializer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-wordlist/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/../api-wordlist/log/development.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-wordlist/tmp/cache/bootsnap-compile-cache/f2/610e3dbe0215d6" beforeDir="false" afterPath="$PROJECT_DIR$/../api-wordlist/tmp/cache/bootsnap-compile-cache/f2/610e3dbe0215d6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-wordlist/tmp/cache/bootsnap-load-path-cache" beforeDir="false" afterPath="$PROJECT_DIR$/../api-wordlist/tmp/cache/bootsnap-load-path-cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-wordlist/tmp/pids/server.pid" beforeDir="false" afterPath="$PROJECT_DIR$/../api-wordlist/tmp/pids/server.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascripts/models/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/models/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascripts/models/word.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/models/word.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1aKgP7kVs0sn5Zws0H2YbXFReVg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/javascripts/models" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Numa\dev\flatiron\labs\project4-arthur-ror-js-120919FT\client-wordlist\javascripts\models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Numa\dev\flatiron\labs\js\wordlist-client\javascripts\models" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ea3679b-fe79-4aab-b340-ef8661e1f78c" name="Default Changelist" comment="" />
+      <created>1586489673957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586489673957</updated>
+      <workItem from="1586489686311" duration="3554000" />
+      <workItem from="1586563518963" duration="7751000" />
+      <workItem from="1586662589752" duration="13345000" />
+      <workItem from="1586702830014" duration="1473000" />
+      <workItem from="1586786881804" duration="3092000" />
+      <workItem from="1586814861597" duration="637000" />
+      <workItem from="1586876800944" duration="11551000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2507" y="178" key="#Notifications" timestamp="1586882749936">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2507" y="178" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586882749936" />
+    <state x="2038" y="0" width="1720" height="840" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586705461322">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2038" y="0" width="1720" height="840" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586705461322" />
+    <state x="1937" y="348" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586675987116" />
+  </component>
+</project>

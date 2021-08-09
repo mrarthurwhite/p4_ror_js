@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+
+    <title>Word List</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            const tab_display= document.querySelector('.tabs');
+            M.Tabs.init(tab_display, {
+                swipeable:true
+            });
+        })
+    </script>
+<div class="row">
+
+    <div class="col s3 m3 l2 word-list">
+        <h7 class="center">List of Words</h7>
+    </div>
+
+    <div class="col s9 m9 l4">
+
+        <form id="word-form" action="#">
+            <div class="input-field">
+                <label for="word">Word</label>
+                <input type="text" name="word" id="word" style="border-color: blue;">
+            </div>
+            <div class="input-field">
+                <label for="definition">Definition</label>
+                <input type="text" name="definition" id="definition">
+            </div>
+            <div class="input-field">
+                <select id="category"  name="category">
+                    <option value="" disabled selected>Choose your category</option>
+                </select>
+            </div>
+            <div class="input-field">
+                <label for="sentence">Sentence</label>
+                <textarea name="sentence" id="sentence" cols="30" rows="50"></textarea>
+            </div>
+            <input type="submit" value="Add a Word" class="wave-effect blue lighten-3 btn-small">
+        </form>
+
+        <div id="word-display">
+          <ul class="tabs tabs-fixed-width tab-demo z-depth-1 hoverable ">
+            <li class="tab"><a href="#word_1">Word</a></li>
+            <li class="tab"><a href="#definition_2">Definition</a></li>
+            <li class="tab"><a href="#sentence_3">Sentence</a></li>
+            <li class="tab"><a href="#etymology_4">Etymology</a></li>
+            <li class="tab"><a href="#mnemonic_5">Mnemonic</a></li>
+          </ul>
+          <div id="word_1" class="col s12 blue lighten-5"><p id="word_d" class="display">Word</p></div>
+          <div id="definition_2" class="col s12 blue lighten-5"><p id="definition_d" class="display">Definition</p></div>
+          <div id="sentence_3" class="col s12 blue lighten-5"><p id="sentence_d" class="display">Sentence</p></div>
+          <div id="etymology_4" class="col s12 blue lighten-5"><p class="display">Etymology</p></div>
+          <div id="mnemonic_5" class="col s12 blue lighten-5"><p class="display">Mnemonic</p></div>
+        </div>
+        <div id="feedback_icon_panel">
+            <p><img src="imgs/comment.svg" id="feedback_icon" width="25px" height="25px"></p>
+        </div>
+
+        <div id="feedback-panel">
+            <form id="feedback-form" action="#">
+                <div class="input-field">
+                    <label for="feedback">Give us your feedback</label>
+                    <textarea name="feedback" id="feedback" cols="30" rows="50"></textarea>
+                </div>
+                <div class="input-field">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="feedback-email" style="border-color: blue;">
+                </div>
+                <input type="submit" value="Give Feedback" class="wave-effect blue lighten-3 btn-small">
+                <button id="feedback_cancel" class="wave-effect blue lighten-3 btn-small">Cancel</button>
+            </form>
+        </div>
+
+    </div>
+</div>
+<script src="javascripts/index.js"></script>
+<script src="javascripts/services/api.js"></script>
+<script src="javascripts/models/word.js"></script>
+<script src="javascripts/models/category.js"></script>
+<script src="javascripts/models/feedback.js"></script>
+</body>
+</html>

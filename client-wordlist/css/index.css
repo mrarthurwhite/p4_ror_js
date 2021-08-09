@@ -1,0 +1,69 @@
+
+/* label color */
+.input-field label {
+    color: #000FFF;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #000FFF;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #000FFF;
+    box-shadow: 0 1px 0 0 #000FFF;
+}
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #000FFF;
+}
+
+/* to center the text being displayed */
+.display {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .tabs .tab a{
+    color: #0d47a1 ;
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+    background-color : #90caf9;
+    color:#0d47a1 ;
+} /*Text color on hover*/
+
+.tabs .tab a.active {
+    background-color:#e1f5fe;
+    color:#1a237e ;
+} /*Background and text color when a tab is active*/
+
+.tabs .indicator {
+    background-color:#82b1ff ;
+} /*Color of underline*/
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+	background-color: lightskyblue;
+	outline: none
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+	background-color: transparent;
+	color: purple
+}
+
+
+

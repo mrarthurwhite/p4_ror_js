@@ -1,0 +1,13 @@
+[x] add feedback overall
+[x] add inplace html for the word display instead of creating html on the fly/always visible
+[x] add tabs for etymology , mnemonics
+https://materializecss.com/tabs.html
+-[x] change the color of the background & underline in materialize for word-display
+[] start with HOT PROSPECTS 175 words (see data folder in api-wordlist
+)
+[] remove input form
+[] add feedback for specific words
+[] add feedback for specific: [] word etymology, [] image, [] definition, [] sentence
+[] add word parts like nouns, verbs
+[] add etymology 
+[] add images as mnemonics
